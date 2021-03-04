@@ -7,7 +7,7 @@ dt {
   gap: 2em;
 }
 
-#sidebyside div+div {
+#sidebyside div + div {
   flex-grow: 1;
 }
 
@@ -53,7 +53,28 @@ dt {
 
 #container {
   position: absolute;
-  /* outline: 4px dashed orange; */
+  outline: 4px dashed orange;
+}
+
+.container {
+  height: 7vw;
+  border: 2px dashed lightgray;
+  position: relative;
+  margin-bottom: 1em;
+}
+
+.container p {
+  margin-top: 0;
+}
+
+.ball {
+  position: absolute;
+  width: 5vw;
+  height: 5vw;
+  bottom: 0;
+  left: 0;
+  background-image: url(beachball.svg);
+  background-size: 100%;
 }
 
 .make-background {
@@ -82,6 +103,11 @@ dt {
   font-size: 140%;
 }
 
+.clickable {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .fall {
   animation: fall 1s linear infinite;
 }
@@ -93,4 +119,25 @@ dt {
   100% {
     transform: translateY(var(--bottom));
   }
+}
+
+#cart {
+  font-size: 30px;
+  position: absolute;
+  left: 300px;
+  top: 50px;
+  background-color: lightsteelblue;
+    
+  padding: 10px 25px 10px 25px;
+}
+
+button#buy {
+  padding: 8px;
+  position: absolute;
+  /* target coordinates:
+  left: 303px;
+  top: 60px; */
+  /* Start coordinates */
+  left: 80px;
+  top: 200px;
 }

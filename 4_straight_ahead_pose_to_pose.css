@@ -1,0 +1,30 @@
+.squash {
+  animation: squash 4s linear infinite;
+}
+
+@keyframes squash {
+  0% {
+    transform: translate(0vw, 0vh) scaleY(1);
+  }
+  25% {
+    transform: translate(12vw, 50vh) scaleY(0.8);
+  }
+  37% {
+    transform: translate(20vw, 26vh) scaleY(1);
+  }
+  50% {
+    transform: translate(26vw, 50vh) scaleY(0.8);
+  }
+  62% {
+    transform: translate(30vw, 30vh) scaleY(1);
+  }
+  75% {
+    transform: translate(35vw, 50vh) scaleY(0.8);
+  }
+  87% {
+    transform: translate(39vw, 40vh) scaleY(1);
+  }
+  100% {
+    transform: translate(42vw, 50vh) scaleY(0.8);
+  }
+}

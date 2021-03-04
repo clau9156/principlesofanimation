@@ -1,0 +1,9 @@
+.addtocart {
+  animation: addtocart 2s ease-in-out;
+}
+
+@keyframes addtocart {
+  100% {
+    transform: translate(220px, -140px);
+  }
+}

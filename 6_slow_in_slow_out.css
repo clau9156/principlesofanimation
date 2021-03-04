@@ -1,0 +1,27 @@
+.show {
+  animation: show 2s ease-in;
+  /* animation-timing-function: ease-in; */
+}
+
+.hide {
+  animation: hide 2s ease-out;
+  /* animation-timing-function: ease-out; */
+}
+
+/* @keyframes show {
+  0% {
+  }
+  50% {
+  }
+  100% {
+  }
+}
+
+@keyframes hide {
+  0% {
+  }
+  50% {
+  }
+  100% {
+  }
+} */

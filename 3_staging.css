@@ -1,0 +1,4 @@
+.active {
+  margin-left: 30vw;
+  transition: margin-left 3s 1s;
+}
