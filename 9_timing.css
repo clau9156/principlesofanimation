@@ -50,7 +50,7 @@
 
 /* WHAT IS STEPS?? steps() */
 .steps {
-  animation: steps 2s infinite alternate-reverse;
+  animation: steps 2s steps(5, end) infinite alternate-reverse;
 }
 
 @keyframes steps {
