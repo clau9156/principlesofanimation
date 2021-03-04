@@ -1,6 +1,3 @@
-/* Create a disappear class with keyframe-animation that slides the dialog-box out the bottom of the screen.
-Give it a cubic-bezier timing function that makes it go a little in the opposite direction first. */
-
 #dialog {
   position: relative;
   top: 5vw;
